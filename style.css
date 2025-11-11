@@ -1,0 +1,15 @@
+*{
+    margin:0; 
+    padding:0;
+    font font-family: "poppins", sans-serif;
+    box-sizing:border-box;
+}
+body {
+    background-color: rgb(53, 53, 106);
+}
+.app {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px;
+}
