@@ -1,7 +1,7 @@
 *{
     margin:0; 
     padding:0;
-    font font-family: "poppins", sans-serif;
+    font-family: "poppins", sans-serif;
     box-sizing:border-box;
 }
 body {
@@ -12,4 +12,63 @@ body {
     width: 90%;
     max-width: 600px;
     margin: 100px;
+    padding: 30px;
+}
+.app h1 {
+
+  font-size: 18px; 
+  color: #333;
+  margin-bottom: 20px; 
+}
+
+.btn {
+  font-size: 1.2em; 
+  margin-bottom: 20px;
+  color: 
+  background-color #007bff; 
+  color: white; 
+  border: none;
+  padding: 10px 20px; 
+  margin: 10px 0; 
+  border-radius: 5px; 
+  font-size: 1em; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+
+button:disabled {
+  background-color: #ccc; 
+  cursor: not-allowed; 
+}
+
+#score-container {
+  margin-top: 20px; 
+  display: none; 
+}
+
+
+#next-btn {
+  background-color: #28a745; 
+  display: inline-block; 
+  font-size: 1em; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  color: white; 
+  cursor: pointer; 
+}
+
+
+#next-btn:hover {
+  background-color: #218838; 
+}
+
+#score {
+  font-size: 1.2em;
+  color: #333;
 }
